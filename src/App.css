@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing:  border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  height: 80px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+}
+
+.logo-container{
+  height: 70px;
+  width: 60%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.logo{
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo p{
+  font-weight: bolder;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.contact{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 20px;
+}
+.contact li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.sign-up{
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up .demo{
+  height: 48px;
+  width: 180px;
+  background-color: #C2DBFF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:  #257CFF;
+  border-radius: 8px;
+
+}
+
+.sign-up button{
+  padding: 16px 22px;
+  border-radius:  8px;
+  border:  none;
+  background-color: #257CFF;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-left: 10px;
 }
